@@ -88,7 +88,9 @@ public class Main2Activity extends AppCompatActivity {
                         contactListItems.setPovrsina(cursor.getString(cursor.getColumnIndex("Povrsina")));
                         contactListItems.setCijena(cursor.getString(cursor.getColumnIndex("Cijena")));
                         contactListItems.setOpis(cursor.getString(cursor.getColumnIndex("Opis")));
+                        contactListItems.setID(cursor.getInt(cursor.getColumnIndex("_id1")));
                         contactListItems.setEmail(cursor.getString(cursor.getColumnIndex("Email")));
+
 
                         contactList.add(contactListItems);
 
